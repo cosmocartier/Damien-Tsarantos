@@ -1,0 +1,40 @@
+{
+  "name": "damien-tsarantos-portfolio",
+  "version": "1.0.0",
+  "description": "A modern, interactive portfolio website showcasing the work of Damien Tsarantos",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -p 8000 -o",
+    "dev": "http-server -p 8000 -o -c-1",
+    "build": "echo 'No build process required - static site'",
+    "deploy": "echo 'Deploy to your preferred hosting service'"
+  },
+  "keywords": [
+    "portfolio",
+    "creative-director",
+    "web-design",
+    "frontend",
+    "gsap",
+    "animations",
+    "responsive"
+  ],
+  "author": "Damien Tsarantos",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/damien-tsarantos-portfolio.git"
+  },
+  "homepage": "https://your-portfolio-url.com",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {},
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
